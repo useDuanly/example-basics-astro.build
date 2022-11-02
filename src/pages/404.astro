@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title='404' descripcion='not fount'>
+  <div class='container'>
+    <h1 class='item'>404 page no found</h1>
+    <a href='/' class='item'>return to Home</a>
+  </div>
+</Layout>
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  .container:nth-child(2) {
+    flex-direction: column;
+  }
+  .container:nth-child(2) {
+  }
+</style>
